@@ -1,0 +1,40 @@
+.container-wrap {
+  position: relative;
+  margin-bottom: 71px;
+}
+.header {
+  padding: 1.5rem;
+  background-color: var(--grey01-color);
+  height: 380px;
+}
+
+.container-wrap .btn-back {
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  outline: none;
+  border: unset;
+}
+.container-wrap .btn-back img {
+  width: 100%;
+  height: 100%;
+}
+
+.content-banner {
+  background-color: var(--grey01-color);
+  height: 428px;
+}
+
+.title {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.content {
+  color: #b5b5be;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.005em;
+}

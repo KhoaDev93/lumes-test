@@ -1,0 +1,136 @@
+:root {
+  font-family: Hellix, Inter, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: "Hyper heliX", sans-serif; */
+  line-height: 24px;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --white-color: #ffffff;
+  --grey01-color: #171725;
+  --grey03-color: #696974;
+  --grey04-color: #92929d;
+  --grey05-color: #b5b5be;
+  --grey08-color: #f1f1f5;
+  --bluedark-color: #0062ff;
+}
+
+.text-white {
+  color: var(--white-color);
+}
+.text-grey01 {
+  color: var(--grey01-color);
+}
+.text-grey03 {
+  color: var(--grey03-color);
+}
+.text-grey04 {
+  color: var(--grey04-color);
+}
+.text-grey05 {
+  color: var(--grey05-color);
+}
+.text-grey08 {
+  color: var(--grey08-color);
+}
+.text-blue {
+  color: var(--bluedark-color);
+}
+
+.p-8 {
+  padding: 8px;
+}
+.p-16 {
+  padding: 16px;
+}
+.p-24 {
+  padding: 24px;
+}
+
+.px-8 {
+  padding: 0px 8px;
+}
+.px-16 {
+  padding: 0px 16px;
+}
+.px-24 {
+  padding: 0px 24px;
+}
+
+.py-8 {
+  padding: 8px 0px;
+}
+.py-16 {
+  padding: 16px 0px;
+}
+.py-24 {
+  padding: 24px 0px;
+}
+
+.m-8 {
+  margin: 8px;
+}
+.m-16 {
+  margin: 16px;
+}
+.m-24 {
+  margin: 24px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+.mb-16 {
+  margin-bottom: 16px;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mx-8 {
+  margin: 0px 8px;
+}
+.mx-16 {
+  margin: 0px 16px;
+}
+.mx-24 {
+  margin: 0px 24px;
+}
+
+.my-8 {
+  margin: 8px 0px;
+}
+.my-16 {
+  margin: 16px 0px;
+}
+.my-24 {
+  margin: 24px 0px;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+.text-center {
+  text-align: center;
+}
+
+body {
+  margin: auto;
+  max-width: 390px;
+  min-height: 100vh;
+  background-color: #dfdfdf;
+}
